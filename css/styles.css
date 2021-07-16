@@ -1,0 +1,31 @@
+/* цвет основного текста #000000 */
+/* вторичный цвет текста  rgba(0, 0, 0, 0.8);
+ */
+/* белый #FFFFFF  */
+/* акцент #18A0FB */
+/* вторичный цвет фона #F5F5F5; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bgr-color: #e5e5e5;
+}
+
+body {
+  background-color: var(--primary-bgr-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+}
+/*logo*/
+.logo {
+  color: var(--title-text-color);
+  font-family: Raleway, bolt;
+  font-size: 26px;
+  line-height: 1.29;
+  font-weight: 700;
+}
+.logo > p > span {
+  color: var(--accent-color);
+}
